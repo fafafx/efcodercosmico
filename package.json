@@ -1,0 +1,32 @@
+{
+  "name": "entrega-final-coder",
+  "version": "1.0.0",
+  "description": "Entrega final de curso de desarrollo web Coderhouse.",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fafafx/efcodercosmico.git"
+  },
+  "keywords": [
+    "Desarrollo",
+    "web",
+    "de",
+    "coder",
+    "cosmico"
+  ],
+  "author": "Fabian Aguirre Caceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fafafx/efcodercosmico/issues"
+  },
+  "homepage": "https://github.com/fafafx/efcodercosmico#readme"
+}
