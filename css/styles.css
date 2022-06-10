@@ -31,9 +31,7 @@ body {
   height: 100vh;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
-  grid-template-areas: "header header header header header"
- "main main main main main"
- "footer footer footer footer footer";
+  grid-template-areas: "header header header header header" "main main main main main" "footer footer footer footer footer";
   row-gap: 0.5rem; }
 
 /* Enlaces */
@@ -506,9 +504,7 @@ legend {
     flex-direction: column;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-template-areas: "header header"
- "main main"
- "footer footer"; }
+    grid-template-areas: "header header" "main main" "footer footer"; }
   nav ul {
     list-style: none;
     display: none;
